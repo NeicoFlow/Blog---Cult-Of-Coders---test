@@ -1,5 +1,5 @@
 # Blog - Cult Of Coders - test
-This project represents my achievement on the "Cult of Coders FrontEnd Entry Test".
+This project represents my achievement about the "Cult of Coders FrontEnd Entry Test".
 
 Shown here the requirements regarding the project.
 
