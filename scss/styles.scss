@@ -1,0 +1,78 @@
+@import"_constants.scss";
+
+
+$bg-article:$blue-super-light; 
+$bg-html:$white;
+$bg-header:$blue-light;
+$bg-body:$white;
+$bd-footer:$blue-light;
+$title-color:$white;
+$title-article-color:$blue;
+$cat-text-color:$green;
+$hstag-text-color:$green;
+
+
+h1{
+    color:$title-color;
+    line-height: 2.5;
+    font-size: 3.6em;
+}
+
+h2{
+    color:$title-article-color;
+}
+
+.header{
+    background: $bg-header !important;
+    height: 155px;
+}
+
+.content{
+    display: block;
+}
+
+article{
+    background-color: $bg-article;
+    padding: 0px 50px;
+     border-bottom: 3px solid #337ab7;
+}
+
+.separ-article{
+    display: block;
+    width:100%;
+    margin: 25px 0px;
+}
+
+.footer{
+     background: $bd-footer;
+     height:35px;
+     text-align: center;
+     bottom: 0px;
+}
+
+img{
+    width: 100%;
+}
+
+#list-article{
+    display: block;
+}
+
+#list-single-article{
+    display: none;
+}
+
+
+@mixin textline ($color, $size) {
+  color: $color;
+  font-size: $size;
+}
+
+
+cattext{
+    @include textline($cat-text-color, 18px);
+}
+
+hstagtext{
+    @include textline($hstag-text-color, 18px);
+}
