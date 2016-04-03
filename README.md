@@ -1,6 +1,8 @@
 # Blog - Cult Of Coders - test
 This project represents my achievement about the "Cult of Coders FrontEnd Entry Test".
 
+Can see demo live here: http://byneico.showdog.ro/blog-coders
+
 Shown here the requirements regarding the project.
 
 Create the styling for a simple blog view fullscreen page.
